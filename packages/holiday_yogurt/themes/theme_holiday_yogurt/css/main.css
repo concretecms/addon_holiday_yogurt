@@ -1,0 +1,179 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(images/background_topgrunge.png);
+	background-color: #ccffff;
+	background-repeat:no-repeat;
+	background-position:center top; 
+}
+
+#overallcontainer {
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 1241px;
+	overflow: hidden;
+}
+
+/* Top Header Containter ------------------------ */
+
+#topcontainer {
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 1164px;
+	height: 413px;
+	background-image: url(images/topheader_image.png);
+}
+
+#titlecontainer {
+	padding-top: 51px;
+	margin-left: 480px;
+	height: 39px;
+	overflow: hidden;
+}
+
+/* Main Header Navigation Area --------------------------- */ 
+
+#main_nav_container {
+	margin-top: 245px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 1017px;
+	height: 69px;
+	background-image: url(images/main_nav_background.png);
+}
+
+#main_nav_list {
+	height: 30px;
+	padding-top: 20px;
+	text-align: center;
+	overflow: hidden;
+}
+
+div#main_nav_list ul.nav-header,
+div#main_nav_list ul.nav {
+	list-style:none;
+	margin:0px;
+	padding:0;
+}
+
+div#main_nav_list ul.nav-header li,
+div#main_nav_list ul.nav li {
+	display:inline;
+}
+
+div#main_nav_list ul li a {
+	text-decoration:none;
+	color:#000;
+}
+
+div#main_nav_list ul li {
+	font-family: 'Lobster Two', cursive;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 21px;
+	color:#000;	
+	text-transform: lowercase;
+	text-decoration:none;
+	text-align:center;
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
+div#main_nav_list ul li a:hover {
+	color:#ff0000
+}
+
+/* Main Body Container -------------------------- */
+
+#maincontainer  {
+	margin-right: auto;
+	margin-left: auto;
+	width: 1140px;
+	min-height: 200px;
+	background-image: url(images/maincontainer_background_top.png); 
+	background-color: #fff;
+	background-repeat:no-repeat;
+	background-position:center top; 
+	overflow: auto;
+}
+
+#maincontainer_contents_fullpage {
+	padding-top: 20px;
+	padding-left: 70px;
+	padding-right: 70px;
+	overflow: hidden;
+}
+
+/* Footer ------------------------------------------ */
+
+#footercontainer {
+	margin-right: auto;
+	margin-left: auto;
+	width: 1241px;
+	height: 342px;
+	background-image: url(images/bottomfooter_background.png);
+	background-repeat:no-repeat;
+	clear: both;
+}
+
+#footercontent_containter {
+	width: 1140px;
+	padding-top: 260px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#footercontent_left {
+	float: left;
+	width: 500px;
+	height: 40px;
+	padding-left: 40px;
+	text-align:left;
+	overflow: hidden;
+}
+
+#footercontent_right {
+	float: right;
+	width: 500px;
+	height: 40px;
+	padding-right: 40px;
+	text-align:right;
+	overflow: hidden;
+}
+
+/* Detail Page-Type -----------------------------------  */
+
+#maincontainer_contents_detail {
+	padding-top: 20px;
+	padding-left: 70px;
+	padding-right: 10px;
+	width:630px;
+	overflow: hidden;
+	float: left;
+}
+
+#maincontainer_contents_sidebar {
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 70px;
+	width:310px;
+	overflow: hidden;
+	float: right;
+}
+
+div#maincontainer ul {
+	padding-left: 30px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	list-style: square url(images/red_bullet_circle.png);
+}
+
+div#maincontainer ol {
+	padding-left: 40px;
+	list-style-type: decimal;
+	color: #ff0000;
+}

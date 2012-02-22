@@ -1,0 +1,223 @@
+/* General Definitions ------------------------------- */
+
+.redtext {
+	color: #ff0000;
+}
+
+/* Top Title Text Definitons ------------------------- */
+
+div#titlecontainer h1,
+div#titlecontainer h2,
+div#titlecontainer h3,
+div#titlecontainer h4,
+div#titlecontainer h5,
+div#titlecontainer h6,
+div#titlecontainer p,
+div#titlecontainer   {
+	font-family: 'Vast Shadow', cursive;
+	font-style: normal;
+	text-transform: uppercase;
+	font-size: 39px;
+	line-height: 39px;
+	color: #fff;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+div#titlecontainer a, div#titlecontainer a:link, div#titlecontainer a:visited, div#titlecontainer a:active, div#titlecontainer a:hover  {
+	text-decoration: none;
+	color: #fff;
+}
+
+/* Header Text Definitions ---------------------------- */ 
+
+div#maincontainer h1  {
+	font-family: 'Amatic SC', cursive;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 76px;
+	text-transform: none;
+	text-decoration: none;
+	letter-spacing: 0em;
+	word-spacing: 0em;
+	line-height: 78px;
+	display: inline;
+}
+
+
+div#maincontainer h2  {
+	font-family: 'Amatic SC', cursive;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 62px;
+	text-transform: none;
+	text-decoration: none;
+	letter-spacing: 0em;
+	word-spacing: 0em;
+	line-height: 64px;
+	display: inline;
+}
+
+div#maincontainer h3  {
+	font-family: 'Amatic SC', cursive;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 56px;
+	text-transform: none;
+	text-decoration: none;
+	letter-spacing: 0em;
+	word-spacing: 0em;
+	line-height: 58px;
+	display: inline;
+}
+
+div#maincontainer h4  {
+	font-family: 'Amatic SC', cursive;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 46px;
+	text-transform: none;
+	text-decoration: none;
+	letter-spacing: 0em;
+	word-spacing: 0em;
+	line-height: 48px;
+	display: inline;
+}
+
+div#maincontainer h5  {
+	font-family: 'Amatic SC', cursive;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	text-transform: none;
+	text-decoration: none;
+	letter-spacing: 0em;
+	word-spacing: 0em;
+	line-height: 38px;
+	display: inline;
+}
+
+div#maincontainer h6  {
+	font-family: 'Amatic SC', cursive;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	text-transform: none;
+	text-decoration: none;
+	letter-spacing: 0em;
+	word-spacing: 0em;
+	line-height: 32px;
+	display: inline;
+}
+
+/* Main Body Copy Text Definitions ---------------------- */
+
+div#maincontainer p  {
+	font-family: 'Gentium Basic', serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	text-transform: none;
+	text-decoration: none;
+	letter-spacing: 0em;
+	word-spacing: 0em;
+	line-height: 21px;
+	padding: 10px 0;
+}
+
+div#maincontainer {
+	font-family: 'Gentium Basic', serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	text-transform: none;
+	text-decoration: none;
+	letter-spacing: 0em;
+	word-spacing: 0em;
+	line-height: 21px;
+}
+
+div#maincontainer a, a:link, div#maincontainer a:visited, div#maincontainer a:active {
+text-decoration: underline;
+/* customize_links */ color: #009900; /* customize_links */
+}
+
+div#maincontainer a:hover {
+	text-decoration: none;
+	/* customize_link-hover */ color: #003366; /* customize_link-hover */
+	/* customize_link-highlight */ background-color: #99ff66; /* customize_link-highlight */
+}
+
+
+/* Footer ------------------------------------------- */
+
+div#footercontent_containter,
+div#footercontent_containter p {
+	font-family: 'Amatic SC', cursive;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	text-transform: none;
+	text-decoration: none;
+	letter-spacing: 0em;
+	word-spacing: 0em;
+	line-height: 38px;
+	color: #009900;
+
+}
+
+div#footercontent_containter a:hover,
+div#maincontainer h1 a:hover,
+div#maincontainer h2 a:hover,
+div#maincontainer h3 a:hover, 
+div#maincontainer h4 a:hover,
+div#maincontainer h5 a:hover,
+div#maincontainer h6 a:hover {
+	color: #ff0000;
+	text-decoration: none;
+	background: none;
+}
+
+div#footercontent_containter a,
+div#maincontainer h1 a,
+div#maincontainer h1 a,
+div#maincontainer h2 a,
+div#maincontainer h3 a, 
+div#maincontainer h4 a,
+div#maincontainer h5 a,
+div#maincontainer h6 a {
+	color: #006600;
+	text-decoration: none;
+}
+
+/* blog post formatting */ 
+
+div#blog-index h3 {
+	display: block;
+}
+
+div#blog-index h4 {
+	font-size: 23px;
+	line-height: 49px;
+	display: block;	
+}
+
+div.entry, div.entry first-entry {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.blog-entry-divider {
+	border: 1px solid #ff9999;
+}
+
+.pageSection {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#ccm-next-previous-40 {
+	padding-top: 0px;
+	padding-bottom: 50px;
+
+}
