@@ -29,10 +29,8 @@
 
             <div id="titlecontainer">
 
-                <h1>
-                    <?php $a = new GlobalArea('Header Site Title');
-                    $a->display($c); ?>
-                </h1>
+                <?php $a = new GlobalArea('Header Site Title');
+                $a->display($c); ?>
 
             </div>
 

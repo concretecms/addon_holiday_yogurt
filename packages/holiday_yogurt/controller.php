@@ -10,8 +10,9 @@ class Controller extends Package
 {
 
     protected $pkgHandle = 'holiday_yogurt';
-    protected $appVersionRequired = '5.7.0b1';
-    protected $pkgVersion = '1.0';
+    protected $appVersionRequired = '5.7.1';
+    protected $pkgVersion = '2.0';
+	protected $pkgAllowsFullContentSwap = true;
 
     public function getPackageDescription()
     {

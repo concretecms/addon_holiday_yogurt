@@ -2,14 +2,14 @@
 
 
 body {
-	margin-left: 0px;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	background-image: url(../images/background_topgrunge.png);
-	background-color: #ccffff;
-	background-repeat:no-repeat;
-	background-position:center top;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-image: url(../images/background_topgrunge.png);
+    background-color: #ccffff;
+    background-repeat:no-repeat;
+    background-position:center top;
 }
 
 .ccm-page img {
@@ -18,11 +18,11 @@ body {
 
 
 .ccm-page #overallcontainer {
-	margin-top: 0px;
-	margin-right: auto;
-	margin-left: auto;
-	width: 1241px;
-	display: block;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1241px;
+    display: block;
 }
 
 
@@ -32,21 +32,21 @@ body {
 /* Top Header Containter ------------------------ */
 
 .ccm-page #topcontainer {
-	margin-top: 0px;
-	margin-right: auto;
-	margin-left: auto;
-	width: 1164px;
-	height: 413px;
-	background-image: url(../images/topimage_03.png);
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1164px;
+    height: 413px;
+    background-image: url(../images/topimage_03.png);
 }
 
 
 
 .ccm-page #titlecontainer {
-	padding-top: 51px;
-	margin-left: 480px;
-	height: 39px;
-	overflow: hidden;
+    padding-top: 51px;
+    margin-left: 480px;
+/*  height: 39px;
+    overflow: hidden;*/
 }
 
 
@@ -57,57 +57,59 @@ body {
 /* Main Header Navigation Area --------------------------- */
 
 .ccm-page #main_nav_container {
-	margin-top: 245px;
-	margin-right: auto;
-	margin-left: auto;
-	width: 1017px;
-	height: 69px;
-	background-image: url(../images/mainnav_01.png);
+    margin-top: 245px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1017px;
+    height: 69px;
+    background-image: url(../images/mainnav_01.png);
 }
 
 
 .ccm-page #main_nav_list {
-	height: 30px;
-	padding-top: 20px;
-	text-align: center;
-	overflow: hidden;
+    /*height: 30px;*/
+    padding-top: 20px;
+    text-align: center;
+    /*
+    overflow: hidden;
+    */
 }
 
 
 .ccm-page ul#nav_list {
-	list-style:none;
-	margin:0px;
-	padding:0;
+    list-style:none;
+    margin:0px;
+    padding:0;
 }
 
 
 .ccm-page ul#nav_list li {
-	display:inline;
+    display:inline;
 }
 
 
 .ccm-page div#main_nav_list ul li a {
-	text-decoration:none;
-	color:#000;
+    text-decoration:none;
+    color:#000;
 }
 
 
 .ccm-page div#main_nav_list ul li {
-	font-family: 'Lobster Two', cursive;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 21px;
-	color:#000;
-	text-transform: lowercase;
-	text-decoration:none;
-	text-align:center;
-	padding-left: 24px;
-	padding-right: 24px;
+    font-family: 'Lobster Two', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    color:#000;
+    text-transform: lowercase;
+    text-decoration:none;
+    text-align:center;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 
 .ccm-page div#main_nav_list ul li a:hover {
-	color:#ff0000
+    color:#ff0000
 }
 
 
@@ -124,25 +126,30 @@ body {
 /* Main Body Container -------------------------- */
 
 .ccm-page #maincontainer  {
-	margin-right: auto;
-	margin-left: auto;
-	width: 1140px;
-	min-height: 200px;
-	background-image: url(../images/maincontainer_bgimage_04.png);
-	background-color: #fff;
-	background-repeat:no-repeat;
-	background-position:center top;
-	overflow: auto;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1140px;
+    min-height: 200px;
+    background-image: url(../images/maincontainer_bgimage_04.png);
+    background-color: #fff;
+    background-repeat:no-repeat;
+    background-position:center top;
+    overflow: auto;
 }
 
 
 .ccm-page #maincontainer_contents_fullpage {
-	padding-top: 20px;
-	padding-left: 40px;
-	padding-right: 40px;
-	overflow: hidden;
-	word-wrap:break-word;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    overflow: hidden;
+    word-wrap:break-word;
 }
+
+.ccm-page #maincontainer_contents_fullpage p {
+    margin-bottom: 20px;
+}
+
 
 
 
@@ -154,47 +161,47 @@ body {
 /* Footer ------------------------------------------ */
 
 .ccm-page #footercontainer {
-	margin-right: auto;
-	margin-left: auto;
-	width: 1241px;
-	height: 342px;
-	background-image: url(../images/bottomfooter_02.png);
-	background-color: none;
-	background-repeat:no-repeat;
-	background-position:center top;
-	clear: both;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1241px;
+    height: 342px;
+    background-image: url(../images/bottomfooter_02.png);
+    background-color: none;
+    background-repeat:no-repeat;
+    background-position:center top;
+    clear: both;
 }
 
 
 
 .ccm-page #footercontent_containter {
-	width: 1140px;
-	padding-top: 260px;
-	margin-right: auto;
-	margin-left: auto;
-	overflow: hidden;
-	word-wrap:break-word;
+    width: 1140px;
+    padding-top: 260px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    word-wrap:break-word;
 }
 
 
 
 .ccm-page #footercontent_left {
-	float: left;
-	width: 500px;
-	height: 40px;
-	padding-left: 40px;
-	text-align:left;
-	overflow: hidden;
+    float: left;
+    width: 500px;
+    height: 40px;
+    padding-left: 40px;
+    text-align:left;
+    overflow: hidden;
 }
 
 
 .ccm-page #footercontent_right {
-	float: right;
-	width: 500px;
-	height: 40px;
-	padding-right: 40px;
-	text-align:right;
-	overflow: hidden;
+    float: right;
+    width: 500px;
+    height: 40px;
+    padding-right: 40px;
+    text-align:right;
+    overflow: hidden;
 }
 
 
@@ -207,40 +214,40 @@ body {
 /* Detail Page-Type -----------------------------------  */
 
 .ccm-page #maincontainer_contents_detail {
-	padding-top: 20px;
-	padding-left: 40px;
-	padding-right: 40px;
-	width:630px;
-	overflow: hidden;
-	word-wrap:break-word;
-	float: left;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width:630px;
+    overflow: hidden;
+    word-wrap:break-word;
+    float: left;
 }
 
 
 
 
 .ccm-page #maincontainer_contents_sidebar {
-	padding-top: 20px;
-	padding-left: 40px;
-	padding-right: 40px;
-	width:310px;
-	overflow: hidden;
-	word-wrap:break-word;
-	float: right;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width:310px;
+    overflow: hidden;
+    word-wrap:break-word;
+    float: right;
 }
 
 
 
 .ccm-page ul {
-	padding-left: 60px;
-	list-style: square url("../images/Bullet_Red3.png");
+    padding-left: 60px;
+    list-style: square url("../images/Bullet_Red3.png");
 }
 
 
 .ccm-page ol {
-	padding-left: 60px;
-	list-style-type: decimal;
-	color: #ff0000;
+    padding-left: 60px;
+    list-style-type: decimal;
+    color: #ff0000;
 }
 
 
