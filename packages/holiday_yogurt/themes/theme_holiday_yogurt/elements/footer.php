@@ -1,4 +1,8 @@
-            <div id="footercontainer">
+<?
+defined('C5_EXECUTE') or die(_("Access Denied."));
+?>
+
+<div id="footercontainer">
 
                 <div id="footercontent_containter">
 

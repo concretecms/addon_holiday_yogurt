@@ -1,3 +1,7 @@
+<?
+defined('C5_EXECUTE') or die(_("Access Denied."));
+?>
+
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
