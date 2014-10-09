@@ -1,48 +1,54 @@
-<?php     defined('C5_EXECUTE') or die("Access Denied."); ?>
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html lang="<?php    echo LANGUAGE?>" xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
+    <?php Loader::element('header_required')?>
 
-<link rel="stylesheet" type="text/css" href="<?php    echo $this->getStyleSheet('css/main.css')?>" />
-<link rel="stylesheet" type="text/css" href="<?php    echo $this->getStyleSheet('typography.css')?>" />
-<link rel="stylesheet" type="text/css" href="<?php    echo $this->getStyleSheet('css/reset.css')?>" />
-<link href='http://fonts.googleapis.com/css?family=Vast+Shadow|Lobster+Two|Gentium+Basic:400,700,400italic,700italic' rel='stylesheet' type='text/css' />
-<link href='http://fonts.googleapis.com/css?family=Amatic+SC'rel='stylesheet' type='text/css'/>
 
-<?php     Loader::element('header_required'); ?>
+
+    <link rel="stylesheet" type="text/css" href="<?php echo $view->getThemePath()?>/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo $view->getThemePath()?>/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo $view->getThemePath()?>/css/typography.css" />
+    <link href='http://fonts.googleapis.com/css?family=Vast+Shadow' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Gentium+Basic:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+
+
 </head>
 
-<body>
 
-	<div id="overallcontainer">
-	
-		<div id="topcontainer">
-		
-			<div id="titlecontainer">
-				
-				<a href="<?php    echo DIR_REL?>/"><?php    
-						$a = new GlobalArea('Site Name');
-						$a->display();   
-				
-			?></a>
-							
-			</div>
-			
-			<div id="main_nav_container">
-			
-				<div id="main_nav_list">
-					
-					<?php    
-						$a = new GlobalArea('Header Nav');
-						$a->display();
-					?>
-	
-				</div>
-				
-			</div>
-			
-		</div>
+
+<body>
+<div class="<?php echo $c->getPageWrapperClass()?>">
+
+
+    <div id="overallcontainer">
+
+        <div id="topcontainer">
+
+            <div id="titlecontainer">
+
+                <h1>
+                    <?php $a = new GlobalArea('Header Site Title');
+                    $a->display($c); ?>
+                </h1>
+
+            </div>
+
+            <div id="main_nav_container">
+
+                <div id="main_nav_list">
+
+                    <ul id="nav_list">
+                        <?php
+                        $a = new GlobalArea('Header Navigation');
+                        $a->display($c);
+                        ?>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>

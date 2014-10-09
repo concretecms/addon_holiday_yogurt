@@ -1,81 +1,103 @@
+
+
+
 body {
 	margin-left: 0px;
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
-	background-image: url(images/background_topgrunge.png);
+	background-image: url(../images/background_topgrunge.png);
 	background-color: #ccffff;
 	background-repeat:no-repeat;
-	background-position:center top; 
+	background-position:center top;
 }
 
-#overallcontainer {
+.ccm-page img {
+    max-width: 100%;
+}
+
+
+.ccm-page #overallcontainer {
 	margin-top: 0px;
 	margin-right: auto;
 	margin-left: auto;
 	width: 1241px;
-	overflow: hidden;
+	display: block;
 }
+
+
+
+
 
 /* Top Header Containter ------------------------ */
 
-#topcontainer {
+.ccm-page #topcontainer {
 	margin-top: 0px;
 	margin-right: auto;
 	margin-left: auto;
 	width: 1164px;
 	height: 413px;
-	background-image: url(images/topheader_image.png);
+	background-image: url(../images/topimage_03.png);
 }
 
-#titlecontainer {
+
+
+.ccm-page #titlecontainer {
 	padding-top: 51px;
 	margin-left: 480px;
 	height: 39px;
 	overflow: hidden;
 }
 
-/* Main Header Navigation Area --------------------------- */ 
 
-#main_nav_container {
+
+
+
+
+/* Main Header Navigation Area --------------------------- */
+
+.ccm-page #main_nav_container {
 	margin-top: 245px;
 	margin-right: auto;
 	margin-left: auto;
 	width: 1017px;
 	height: 69px;
-	background-image: url(images/main_nav_background.png);
+	background-image: url(../images/mainnav_01.png);
 }
 
-#main_nav_list {
+
+.ccm-page #main_nav_list {
 	height: 30px;
 	padding-top: 20px;
 	text-align: center;
 	overflow: hidden;
 }
 
-div#main_nav_list ul.nav-header,
-div#main_nav_list ul.nav {
+
+.ccm-page ul#nav_list {
 	list-style:none;
 	margin:0px;
 	padding:0;
 }
 
-div#main_nav_list ul.nav-header li,
-div#main_nav_list ul.nav li {
+
+.ccm-page ul#nav_list li {
 	display:inline;
 }
 
-div#main_nav_list ul li a {
+
+.ccm-page div#main_nav_list ul li a {
 	text-decoration:none;
 	color:#000;
 }
 
-div#main_nav_list ul li {
+
+.ccm-page div#main_nav_list ul li {
 	font-family: 'Lobster Two', cursive;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 21px;
-	color:#000;	
+	color:#000;
 	text-transform: lowercase;
 	text-decoration:none;
 	text-align:center;
@@ -83,51 +105,80 @@ div#main_nav_list ul li {
 	padding-right: 24px;
 }
 
-div#main_nav_list ul li a:hover {
+
+.ccm-page div#main_nav_list ul li a:hover {
 	color:#ff0000
 }
 
+
+
+
+
+
+
+
+
+
+
+
 /* Main Body Container -------------------------- */
 
-#maincontainer  {
+.ccm-page #maincontainer  {
 	margin-right: auto;
 	margin-left: auto;
 	width: 1140px;
 	min-height: 200px;
-	background-image: url(images/maincontainer_background_top.png); 
+	background-image: url(../images/maincontainer_bgimage_04.png);
 	background-color: #fff;
 	background-repeat:no-repeat;
-	background-position:center top; 
+	background-position:center top;
 	overflow: auto;
 }
 
-#maincontainer_contents_fullpage {
+
+.ccm-page #maincontainer_contents_fullpage {
 	padding-top: 20px;
-	padding-left: 70px;
-	padding-right: 70px;
+	padding-left: 40px;
+	padding-right: 40px;
 	overflow: hidden;
+	word-wrap:break-word;
 }
+
+
+
+
+
+
+
 
 /* Footer ------------------------------------------ */
 
-#footercontainer {
+.ccm-page #footercontainer {
 	margin-right: auto;
 	margin-left: auto;
 	width: 1241px;
 	height: 342px;
-	background-image: url(images/bottomfooter_background.png);
+	background-image: url(../images/bottomfooter_02.png);
+	background-color: none;
 	background-repeat:no-repeat;
+	background-position:center top;
 	clear: both;
 }
 
-#footercontent_containter {
+
+
+.ccm-page #footercontent_containter {
 	width: 1140px;
 	padding-top: 260px;
 	margin-right: auto;
 	margin-left: auto;
+	overflow: hidden;
+	word-wrap:break-word;
 }
 
-#footercontent_left {
+
+
+.ccm-page #footercontent_left {
 	float: left;
 	width: 500px;
 	height: 40px;
@@ -136,7 +187,8 @@ div#main_nav_list ul li a:hover {
 	overflow: hidden;
 }
 
-#footercontent_right {
+
+.ccm-page #footercontent_right {
 	float: right;
 	width: 500px;
 	height: 40px;
@@ -145,35 +197,55 @@ div#main_nav_list ul li a:hover {
 	overflow: hidden;
 }
 
+
+
+
+
+
+
+
 /* Detail Page-Type -----------------------------------  */
 
-#maincontainer_contents_detail {
+.ccm-page #maincontainer_contents_detail {
 	padding-top: 20px;
-	padding-left: 70px;
-	padding-right: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
 	width:630px;
 	overflow: hidden;
+	word-wrap:break-word;
 	float: left;
 }
 
-#maincontainer_contents_sidebar {
+
+
+
+.ccm-page #maincontainer_contents_sidebar {
 	padding-top: 20px;
-	padding-left: 10px;
-	padding-right: 70px;
+	padding-left: 40px;
+	padding-right: 40px;
 	width:310px;
 	overflow: hidden;
+	word-wrap:break-word;
 	float: right;
 }
 
-div#maincontainer ul {
-	padding-left: 30px;
-	padding-top: 6px;
-	padding-bottom: 6px;
-	list-style: square url(images/red_bullet_circle.png);
+
+
+.ccm-page ul {
+	padding-left: 60px;
+	list-style: square url("../images/Bullet_Red3.png");
 }
 
-div#maincontainer ol {
-	padding-left: 40px;
+
+.ccm-page ol {
+	padding-left: 60px;
 	list-style-type: decimal;
 	color: #ff0000;
 }
+
+
+
+
+
+
+
