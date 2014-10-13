@@ -134,7 +134,7 @@ body {
     background-color: #fff;
     background-repeat:no-repeat;
     background-position:center top;
-    overflow: auto;
+    /* overflow: auto; */
 }
 
 
@@ -142,7 +142,7 @@ body {
     padding-top: 20px;
     padding-left: 40px;
     padding-right: 40px;
-    overflow: hidden;
+    /* overflow: hidden; */
     word-wrap:break-word;
 }
 
@@ -179,7 +179,7 @@ body {
     padding-top: 260px;
     margin-right: auto;
     margin-left: auto;
-    overflow: hidden;
+    /* overflow: hidden; */
     word-wrap:break-word;
 }
 
@@ -191,7 +191,7 @@ body {
     height: 40px;
     padding-left: 40px;
     text-align:left;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 
@@ -201,7 +201,7 @@ body {
     height: 40px;
     padding-right: 40px;
     text-align:right;
-    overflow: hidden;
+    /* overflow: hidden;*/
 }
 
 
@@ -218,7 +218,7 @@ body {
     padding-left: 40px;
     padding-right: 40px;
     width:630px;
-    overflow: hidden;
+    /* overflow: hidden; */
     word-wrap:break-word;
     float: left;
 }
@@ -231,7 +231,7 @@ body {
     padding-left: 40px;
     padding-right: 40px;
     width:310px;
-    overflow: hidden;
+    /* overflow: hidden; */
     word-wrap:break-word;
     float: right;
 }
