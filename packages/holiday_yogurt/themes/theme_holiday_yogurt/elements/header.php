@@ -12,10 +12,10 @@ defined('C5_EXECUTE') or die(_("Access Denied."));
     <link rel="stylesheet" type="text/css" href="<?php echo $view->getThemePath()?>/css/reset.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo $view->getThemePath()?>/css/main.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo $view->getThemePath()?>/css/typography.css" />
-    <link href='http://fonts.googleapis.com/css?family=Vast+Shadow' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Gentium+Basic:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Vast+Shadow' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Gentium+Basic:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 
 
 
